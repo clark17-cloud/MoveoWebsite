@@ -1,12 +1,388 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=website.html">
-  <title>MOVEO | Move. Discover. Go.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVEO | Move. Discover. Go.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <p>Loading MOVEO… <a href="website.html">Open the website</a>.</p>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">MOVEO</a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#video">Video</a>
+                <a href="#prototype">Prototype</a>
+                <a href="#contact">Contact</a>
+                <a href="#team">Our Team</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="tagline">MOVE. DISCOVER. GO.</p>
+
+            <h1>
+                Your Fitness Journey,
+                <span>All in One Place.</span>
+            </h1>
+
+            <p>
+                MOVEO is a proposed fitness platform
+                that helps users track their walking
+                and running activities while discovering
+                local fitness events.
+            </p>
+
+            <a href="#services" class="btn">
+                Explore MOVEO
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="image/M1.png" alt="MOVEO Logo">
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT US -->
+    <section id="about" class="section">
+
+        <h2>About <span>MOVEO</span></h2>
+
+        <p class="section-description">
+            MOVEO is a startup concept developed to
+            make fitness activities and local event
+            discovery more convenient.
+
+            It aims to bring activity tracking and
+            fitness event information together in
+            one platform.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Our Mission</h3>
+                <p>
+                    To provide an accessible platform
+                    where users can monitor their
+                    fitness activities and discover
+                    local fitness events easily.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>
+                    To become a platform that encourages
+                    active lifestyles and connects
+                    fitness communities across the
+                    Philippines.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark-section">
+
+        <h2>Our <span>Services</span></h2>
+
+        <p class="section-description">
+            Discover the proposed features of MOVEO.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="service-icon">01</div>
+                <h3>GPS Activity Tracking</h3>
+                <p>
+                    Track walking and running activities,
+                    including distance, time, and pace.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">02</div>
+                <h3>Local Event Discovery</h3>
+                <p>
+                    Explore fun runs, walkathons, and
+                    other fitness events in your area.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">03</div>
+                <h3>Event Information</h3>
+                <p>
+                    View event dates, venues, fees,
+                    deadlines, and organizer details.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">04</div>
+                <h3>Official Registration</h3>
+                <p>
+                    Access official registration links
+                    provided by event organizers.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">05</div>
+                <h3>Activity History</h3>
+                <p>
+                    Review previously recorded walking
+                    and running activities.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="service-icon">06</div>
+                <h3>Event Submission</h3>
+                <p>
+                    Allow organizers to submit local
+                    fitness events for review.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+
+        <h2>Ready to Move More?</h2>
+
+        <p>
+            Discover how MOVEO aims to make
+            fitness tracking and local event
+            discovery easier.
+        </p>
+
+        <a href="#prototype" class="btn btn-dark">
+            Try Our Prototype
+        </a>
+
+    </section>
+
+
+    <!-- PROMOTIONAL VIDEO -->
+    <section id="video" class="section">
+
+        <h2>Discover <span>MOVEO</span></h2>
+
+        <p class="section-description">
+            Watch our one-minute promotional video
+            to learn more about our startup.
+        </p>
+
+        <div class="video-container">
+
+            <video controls preload="metadata">
+                <source src="image/finalvvideo.mp4"
+                        type="video/mp4">
+
+                Your browser does not support
+                the video element.
+            </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- LINK PADUNG FIGMA -->
+    <section id="prototype" class="section dark-section">
+
+        <h2>Experience <span>MOVEO</span></h2>
+
+        <p class="section-description">
+            Want to explore our proposed fitness
+            application?
+
+            Try our interactive Figma prototype
+            and discover how MOVEO is designed
+            to work.
+        </p>
+
+        <div class="prototype-card">
+
+            <div class="prototype-icon">
+                &#9654;
+            </div>
+
+            <h3>Explore Our Interactive Prototype</h3>
+
+            <p>
+                Experience the proposed MOVEO
+                interface, explore its features,
+                and see how users can discover
+                local fitness events.
+            </p>
+
+            <a
+                href="https://www.figma.com/proto/ztzOuJSxOs7KRqn758mW4k/Untitled?node-id=12-3&amp;p=f&amp;t=1fFJNnuRx9FE3XQE-0&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=12%3A3"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn prototype-btn">
+
+                Try Our Prototype
+
+            </a>
+
+            <p class="prototype-note">
+                Opens the MOVEO Figma prototype
+                in a new browser tab.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+<!-- CONTACT INFORMATION -->
+<section id="contact" class="section">
+
+    <h2>Contact <span>Us</span></h2>
+
+    <p class="section-description">
+        Interested in MOVEO?
+        Connect with us through our Facebook Page!
+    </p>
+
+    <div class="contact-box">
+
+        <h3>Get in Touch</h3>
+
+        <p>
+            <strong>Startup:</strong> MOVEO
+        </p>
+
+        <p>
+            <strong>Institution:</strong>
+            Davao del Norte State College
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Philippines
+        </p>
+
+        <p>
+    <strong>Facebook Page:</strong>
+
+    <a href="https://www.facebook.com/profile.php?id=61596394106468"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="facebook-link"
+       style="color: white !important; text-decoration: underline !important;">
+        Visit MOVEO Facebook Page
+    </a>
+</p>
+
+
+
+
+        <a href="https://www.facebook.com/profile.php?id=61596394106468"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn">
+            Contact Us on Facebook
+        </a>
+
+    </div>
+
+</section>
+
+
+    <!-- MEET OUR TEAM -->
+    <section id="team" class="team-section">
+
+        <h2>Meet Our Team</h2>
+
+        <p class="team-description">
+            The people behind MOVEO.
+        </p>
+
+        <div class="team-container">
+
+            <!-- PROJECT MANAGER -->
+            <div class="team-member">
+
+                <img src="image/pic3.jpg"
+                     alt="Sandra Glodo">
+
+                <h4>Sandra Glodo</h4>
+                <p>Project Manager</p>
+
+            </div>
+
+
+            <!-- SYSTEM ANALYST -->
+            <div class="team-member">
+
+                <img src="image/pic2.jpg"
+                     alt="Mark Vincent Belardo">
+
+                <h4>Mark Vincent Belardo</h4>
+                <p>System Analyst</p>
+
+            </div>
+
+
+            <!-- PROGRAMMER -->
+            <div class="team-member">
+
+                <img src="image/pic1.jpg"
+                     alt="Julian Clark Ibarra">
+
+                <h4>Julian Clark Ibarra</h4>
+                <p>Programmer</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>MOVEO</h3>
+
+        <p>Move. Discover. Go.</p>
+
+        <p>Student Startup Project | 2026</p>
+
+    </footer>
+
 </body>
 </html>
